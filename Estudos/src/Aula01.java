@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class Aulas {
+public class Aula01 {
         public static void main(String[] args) {
 
             double x = 10.3543;
@@ -28,7 +28,7 @@ public class Aulas {
             double price1 = 4500.0;
             double price2 = 3000.0;
             double measure = 45.2342342242;
-
+//Exercicio
             System.out.println("Products");
             System.out.printf("%s, which price is $ %.2f.%n", product1, price1);
             System.out.printf("%s, which price is $ %.2f.%n", product2, price2);
