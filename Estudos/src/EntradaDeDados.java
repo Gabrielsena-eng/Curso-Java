@@ -30,9 +30,8 @@ public class EntradaDeDados {
         System.out.println(z);
 
 
-           // sc.close();
             //QUEBRA DE LINHA COM nextline
-        Scanner sc = new Scanner(System.in);
+
         int x1;
         String s1, s2, s3;
 
