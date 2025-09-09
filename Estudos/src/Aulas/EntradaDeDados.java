@@ -1,4 +1,5 @@
-import java.util.Locale;
+package Aulas;
+
 import java.util.Scanner;
 
 public class EntradaDeDados {
