@@ -24,8 +24,7 @@ public class Aula02Poo {
         System.out.print("Quantity: ");
         produto.quantity = sc.nextInt();
 
-        System.out.printf("Product data: %s, $%,2f, %d units, Total: $%.2f.%n", produto.name,produto.price,produto.quantity,total);
-
+        System.out.println(produto);
 
         sc.close();
     }
