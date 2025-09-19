@@ -1,5 +1,7 @@
 package Aulas.Poo;
 
+import Aulas.Poo.Entietes.Triangle;
+
 import java.util.Scanner;
 
 public class Aula01Poo {
@@ -21,8 +23,8 @@ public class Aula01Poo {
         y.b = sc.nextDouble();
         y.c = sc.nextDouble();
 
-        double areaX = area(x.a, x.b, x.c);
-        double areaY = area(y.a, y.b, y.c);
+        double areaX = x.area();
+        double areaY = y.area();
 
         System.out.printf("Area de X = %.4f.%n", areaX);
         System.out.printf("Area de Y = %.4f.%n", areaY);
@@ -38,12 +40,6 @@ public class Aula01Poo {
             numeroMaior = 'Y';
         }
         return numeroMaior;
-    }
-
-    public static double area(double a, double b, double c){
-        double p = (a + b + c)/ 2;
-        double abc = Math.sqrt((p* (p-a) * (p-b) * (p-c) ));
-        return abc;
     }
 
     public static void Resultado(double visue){
