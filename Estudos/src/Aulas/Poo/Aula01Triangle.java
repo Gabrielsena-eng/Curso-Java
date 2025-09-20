@@ -4,7 +4,7 @@ import Aulas.Poo.Entietes.Triangle;
 
 import java.util.Scanner;
 
-public class Aula01Poo {
+public class Aula01Triangle {
     public static void main(String[] args) {
         /*descobrir a area de um triangulo somente com as medias dos lados, e comparar a are com outro triangulo*/
         Scanner sc = new Scanner(System.in);
