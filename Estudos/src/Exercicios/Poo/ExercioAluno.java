@@ -18,13 +18,16 @@ public class ExercioAluno {
         aluno.notaTerceiroSemestre = sc.nextDouble();
 
         double notaFinal = aluno.NotaFinal();
+        double missing;
 
         System.out.printf("Final grade = %.2f.%n", notaFinal);
+
         if (notaFinal < 60){
-            double missing = 60 - notaFinal;
+             missing = 60 - notaFinal;
             System.out.println("Faleid");
             System.out.printf("Missing %.2f Points", missing);
-        }else{
+        }
+        else{
             System.out.println("Pass");
         }
         sc.close();

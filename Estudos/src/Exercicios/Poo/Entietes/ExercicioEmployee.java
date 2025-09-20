@@ -12,14 +12,12 @@ public class ExercicioEmployee {
         Employee funcionario = new Employee();
 
         System.out.print("Name: ");
-        funcionario.Name = sc.next();
-        sc.nextLine();
+        funcionario.Name = sc.nextLine();
         System.out.print("GloosSalary: ");
         funcionario.GlossSalary = sc.nextDouble();
-        sc.nextLine();
         System.out.print("Tax: ");
         funcionario.Tax = sc.nextDouble();
-        System.out.println(funcionario);//nome e salario liquido;
+        System.out.println("Employee: " + funcionario);//nome e salario liquido;
 
         System.out.println("Percentage");
         double percentage = funcionario.increaseSalary(sc.nextDouble());//porcentagem de aumento

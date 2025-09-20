@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class ExercicioRectangle {
     public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
 
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
         Rectangle rectangle = new Rectangle();
@@ -17,11 +17,8 @@ public class ExercicioRectangle {
         rectangle.width = sc.nextDouble();
         rectangle.height = sc.nextDouble();
 
-        double area = rectangle.AreaRectangle();
-        System.out.println("Area = " + area);
-        double perimeter = rectangle.Perimeter();
-        System.out.println("Perimeter = " + perimeter);
-        double diagonal = rectangle.Diagonal();
-        System.out.println("Diagonal = " + diagonal);
+        System.out.println("Area = " + rectangle.AreaRectangle());
+        System.out.println("Perimeter = " + rectangle.Perimeter());
+        System.out.println("Diagonal = " + rectangle.Diagonal());
     }
 }
