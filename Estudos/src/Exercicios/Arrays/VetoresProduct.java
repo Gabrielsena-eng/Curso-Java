@@ -27,6 +27,6 @@ public class VetoresProduct {
         }
         double avg = sum / n;
 
-        System.out.printf("AVAREGE PRICE = %.2f%n", avg);
+        System.out.printf("AVAREGE PRICE = %.2f%n",  avg);
     }
 }
