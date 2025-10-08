@@ -25,11 +25,19 @@ public class EstruturaDeRepeticao {
         }
         int N;
         soma = 0;
-        N = sc.nextInt();
-        for (int i = 0; i < N ; i++) {
-            int z = sc.nextInt();
-            soma += z;
+       // N = sc.nextInt();
+        //for (int i = 0; i < N ; i++) {
+        //    int z = sc.nextInt();
+        //    soma += z;
+       // }
+        //System.out.println(soma);
+
+        String[] vect = new String[] {"Maria", "Bob", "Luiz"};
+
+
+        //Decorrer listas
+        for (String nomes : vect){
+            System.out.println(nomes);
         }
-        System.out.println(soma);
     }
 }
