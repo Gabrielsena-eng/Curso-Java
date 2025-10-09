@@ -30,7 +30,8 @@ public class Altura {
 
             if (idade < 16){
                 menor16 += 1;
-            }else {
+            }
+            else {
 
             }
         }
